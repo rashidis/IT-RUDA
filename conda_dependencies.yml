@@ -1,9 +1,12 @@
-name: temp-env
+name: itruda
 channels:
   - defaults
 dependencies:
   - python=3.9
   - pip
   - pandas==2.1.4
-  - matplotlib==3.8.2
-  - scikit-learn==1.3.2
+  - PyTorch >= 1.0.0 (with suitable CUDA and CuDNN version)
+  - torchvision >= 0.2.2
+  - scipy==1.13.1
+  - scikit-learn==1.5.2
+  - matplotlib==3.9.2
