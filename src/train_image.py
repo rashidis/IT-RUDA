@@ -1,16 +1,10 @@
-### rewriting every thing for deterministic KL, to make sure nothing is wrong
-## change optimizer from GSD to Adam? no
-## change cross entropy loss to nll? yes
-## change embedding size to 16
 import argparse
 import os
 import os.path as osp
-import copy
 import torch
 import torch.nn as nn
 import torch.optim as optim
 import network
-import loss
 import pre_process as prep
 from torch.utils.data import DataLoader
 import lr_schedule
